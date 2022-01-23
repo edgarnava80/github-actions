@@ -7,7 +7,7 @@ const Clock = props => {
 
 
 function App() {
-  const [time, setTime] = useState(new Date().toLocaleString())
+  const [time, setTime] = useState(new Date().toLocaleTimeString())
   useEffect(() => {
     setInterval(() => {
       setTime(new Date().toLocaleString())
