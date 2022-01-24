@@ -10,7 +10,7 @@ function App() {
   const [time, setTime] = useState(new Date().toLocaleTimeString())
   useEffect(() => {
     setInterval(() => {
-      setTime(new Date().toLocaleString())
+      setTime(new Date().toLocaleTimeString())
     }, 1000)
   }, [time])
   return (
