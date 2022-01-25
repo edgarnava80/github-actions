@@ -18,6 +18,7 @@ function App() {
      
         <p>
           Time: <Clock time={time} />
+          I love you!
         </p>
         
     </div>
