@@ -18,7 +18,7 @@ function App() {
      
         <p>
           Time: <Clock time={time} />
-          Current local time.
+          Current local live time.
         </p>
         
     </div>
